@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "pages:build": "npx @cloudflare/next-on-pages"
-
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.0",
     "@headlessui/react": "^1.7.17",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",
