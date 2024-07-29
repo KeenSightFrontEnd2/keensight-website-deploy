@@ -10,6 +10,7 @@ const inter = Bricolage_Grotesque({
   variable: "--font-inter",
   display: "swap",
 });
+export const runtime = "edge";
 
 export const metadata = {
   title: "Keensight Analytics - Sharpened Intuition",
