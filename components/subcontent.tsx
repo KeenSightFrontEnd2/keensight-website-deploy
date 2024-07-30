@@ -32,7 +32,7 @@ export default function SubContent({ side, index }: { side: string; index: numbe
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <div>
-                  <div className="font-bold leading-snug tracking-tight mb-1"></div>
+                  <div className="font-bold leading-snug text tracking-tight mb-1"></div>
 
                   {subContent2[`${index}`].content.map((item) => {
                     return (

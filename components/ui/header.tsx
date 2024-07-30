@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
+      className={`fixed w-full py-5 lg:py-0 z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
         !top ? "bg-white backdrop-blur-sm shadow-lg" : ""
       }`}
     >
@@ -55,7 +55,7 @@ export default function Header() {
               <li>
                 <Link
                   href={navLinks[0].link}
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-600 hover:text-gray-900 hover:mx-2 px-5 py-3 flex items-center transition-all duration-300 ease-in-out"
                 >
                   {navLinks[0].title}
                 </Link>
@@ -63,7 +63,7 @@ export default function Header() {
               <li>
                 <Link
                   href={navLinks[1].link}
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-gray-600  hover:text-gray-900 hover:mx-2 px-5 py-3 flex items-center transition-all duration-300 ease-in-out"
                 >
                   {navLinks[1].title}
                 </Link>

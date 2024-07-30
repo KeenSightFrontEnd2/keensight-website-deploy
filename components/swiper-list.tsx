@@ -89,7 +89,7 @@ export default function SwiperList({ swiperArr }: SwiperListProps) {
             >
               <div>
                 <a
-                  className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  className="btn text-white bg-blue-600 transition-transform duration-300 hover:translate-x-1 hover:translate-y-1 hover:drop-shadow-xl hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
                   href={slide.link}
                 >
                   {slide.button}
@@ -97,7 +97,7 @@ export default function SwiperList({ swiperArr }: SwiperListProps) {
               </div>
               <div>
                 <a
-                  className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                  className="btn text-white bg-gray-900 transition-transform duration-300 hover:translate-x-1 hover:translate-y-1 hover:drop-shadow-xl hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                   href={slide.link}
                 >
                   View Our Case Studies

@@ -74,13 +74,13 @@ export default function MobileMenu() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <ul className="px-5 py-2">
+          <ul className="px-8 py-8">
             <li>
               {navLinks[2].products?.map((subLink) => (
                 <Link
                   key={subLink.title}
                   href={subLink.link}
-                  className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                  className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center text-2xl border-b border-gray-400"
                   onClick={() => setMobileNavOpen(!mobileNavOpen)}
                 >
                   {subLink.title}
@@ -91,7 +91,7 @@ export default function MobileMenu() {
             <li>
               <Link
                 href={navLinks[0].link}
-                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center text-2xl border-b border-gray-400"
                 onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 {navLinks[0].title}
@@ -100,16 +100,16 @@ export default function MobileMenu() {
             <li>
               <Link
                 href={navLinks[1].link}
-                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center text-2xl"
                 onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 {navLinks[1].title}
               </Link>
             </li>
-            <li>
+            <li className="text-center">
               <Link
                 href="/signup"
-                className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2"
+                className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-max my-2 px-4 py-4"
                 onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 <span>Request A Consultation</span>

@@ -33,7 +33,7 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">{header2.title}</h1>
+            <h1 className="h2 mb-4 text-center">{header2.title}</h1>
             <p className="text-xl text-gray-600">{header2.content}</p>
           </div>
 
@@ -45,7 +45,7 @@ export default function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="text-4xl font-extrabold h3 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                <h3 className="text-4xl font-extrabold h3 mb-3 bg-clip-text text-transparent text-center bg-gradient-to-r from-blue-500 to-teal-400">
                   {howWeDo.header}
                 </h3>
               </div>
@@ -54,8 +54,8 @@ export default function Features() {
                 <a
                   className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg  hover:bg-gradient-to-r from-white to-gray-300"
+                      : "bg-gradient-to-l from-white to-gray-300 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -84,8 +84,8 @@ export default function Features() {
                 <a
                   className={`flex items-center  justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg  hover:bg-gradient-to-r from-white to-gray-300"
+                      : "bg-gradient-to-l from-white to-gray-300 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -119,8 +119,8 @@ export default function Features() {
                 <a
                   className={`flex items-center  justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-white to-gray-300"
+                      : "bg-gradient-to-l from-white to-gray-300 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -177,7 +177,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative inline-flex flex-col">
+                    <div className="hidden lg:inline-flex relative flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src="/images/logo-circles.png"
@@ -201,7 +201,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative inline-flex flex-col">
+                    <div className="hidden lg:inline-flex relative flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src="/images/logo-circles.png"
@@ -225,7 +225,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative inline-flex flex-col">
+                    <div className="hidden lg:inline-flex relative flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src="/images/logo-circles.png"
