@@ -19,7 +19,7 @@ export default function CommonEngagements({ product }: { product: any }) {
                 className="bg-blue-600 rounded-md p-8 text-center flex flex-col gap-8 hover:scale-105 transition-transform duration-300 ease-in-out"
               >
                 <h3 className="text-xl text-white font-bold">{item.title}</h3>
-                <p className="text-gray-300 text-justify">{item.description}</p>
+                <p className="text-gray-300 text-left">{item.description}</p>
               </li>
             );
           })}

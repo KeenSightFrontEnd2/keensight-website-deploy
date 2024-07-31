@@ -24,7 +24,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl transition-all duration-500 hover:drop-shadow-2xl hover:translate-x-4 hover:-translate-y-4"
                   src={"/images/about-andrew.png"}
                   width={540}
                   height={405}
@@ -71,7 +71,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl transition-all duration-500 hover:drop-shadow-2xl hover:-translate-x-4 hover:-translate-y-4"
                   src="/images/howwedo1.png"
                   width={540}
                   height={405}
@@ -136,7 +136,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl transition-all duration-500 hover:drop-shadow-2xl hover:translate-x-4 hover:-translate-y-4"
                   src={"/images/howwedo2.png"}
                   width={540}
                   height={405}
@@ -201,7 +201,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl transition-all duration-500 hover:drop-shadow-2xl hover:-translate-x-4 hover:-translate-y-4"
                   src="/images/howwedo3.png"
                   width={540}
                   height={405}
