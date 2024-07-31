@@ -132,7 +132,7 @@ module.exports = {
             transform: 'translate(0, 0) scale(1) rotate(0deg)',
           },
           '100%': {
-            transform: 'translate(200px, -200px) scale(3) rotate(45deg)',
+            transform: 'translate(100px, -100px) scale(2) rotate(45deg)',
           },
         },
 
