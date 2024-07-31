@@ -32,7 +32,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="shrink-0 mr-4 transition-all duration-500 hover:drop-shadow-2xl hover:-translate-x-1 hover:-translate-y-1">
             <Logo />
           </div>
 
@@ -72,7 +72,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                  className="btn-sm text-gray-200 bg-gray-900 ml-3 transition-all duration-500 ease-in-out hover:px-5 hover:py-3"
                 >
                   <span>Request A Consultation</span>
                   <svg

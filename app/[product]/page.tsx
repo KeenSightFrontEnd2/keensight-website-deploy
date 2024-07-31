@@ -66,7 +66,7 @@ export default function ProductPage({ params }: { params: { product: string } })
                 >
                   <div>
                     <a
-                      className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 "
+                      className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 transition-all duration-500 ease-in-out hover:px-9 hover:py-4"
                       href={product.link}
                     >
                       {product.button}
