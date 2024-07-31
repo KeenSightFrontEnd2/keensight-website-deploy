@@ -14,7 +14,7 @@ export default function Faq() {
         <ul>
           {faq.questions.map((item) => {
             return (
-              <div className="ttransition-all ease-in-out hover:bg-gradient-to-r from-white to-gray-300 rounded-lg">
+              <div className="ttransition-all ease-in-out hover:bg-gradient-to-r from-white to-blue-100 rounded-lg">
               <Accordion key={item.question} title={item.question}>
                 {item.answer}
               </Accordion>

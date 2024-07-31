@@ -36,7 +36,7 @@ export default function Infographic({ arr }: { arr: Array<string> }) {
                   }`}
                   data-aos="fade-up"
                 >
-                  <div className="max-w-full mx-auto md:max-w-none">
+                  <div className="max-w-full mx-auto md:max-w-none rounded-xl transition-all duration-500 ease-in-out hover:shadow-2xl hover:scale-110">
                     <Image
                       className="max-w-full h-auto"
                       src={`/images/${item}`}

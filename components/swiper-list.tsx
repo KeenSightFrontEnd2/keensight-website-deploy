@@ -65,7 +65,7 @@ export default function SwiperList({ swiperArr }: SwiperListProps) {
       }}
       modules={[Autoplay, Navigation, Pagination, EffectCreative]}
       onAutoplayTimeLeft={onAutoplayTimeLeft}
-      className="mySwiper"
+      className="mySwiper rounded-xl"
     >
       {swiperArr.map((slide: any) => (
         <SwiperSlide key={slide.title}>

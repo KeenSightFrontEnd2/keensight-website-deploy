@@ -17,14 +17,14 @@ export default function Zigzag() {
           {/* Items */}
           <div className="grid gap-20">
             {/* Andrew */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center drop-shadow-2xl">
               {/* Image */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl"
                   src={"/images/about-andrew.png"}
                   width={540}
                   height={405}
@@ -33,11 +33,11 @@ export default function Zigzag() {
               </div>
               {/* Content */}
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify"
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <h3 className="h3 mb-3">About KeenSight's Founder</h3>
+                  <h3 className="h3 mb-3 text">About KeenSight's Founder</h3>
                   <p className="text-xl text-gray-400 mb-4">
                     Andrew Gabriel leads KeenSight Analytics with over 10 years of experience in
                     Data Science, AI, and Large Scale Software Development. We have worked with
@@ -71,7 +71,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl"
                   src="/images/howwedo1.png"
                   width={540}
                   height={405}
@@ -80,7 +80,7 @@ export default function Zigzag() {
               </div>
               {/* Content */}
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify"
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
@@ -136,7 +136,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl shadow-2xl"
                   src={"/images/howwedo2.png"}
                   width={540}
                   height={405}
@@ -145,7 +145,7 @@ export default function Zigzag() {
               </div>
               {/* Content */}
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify"
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
@@ -201,7 +201,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl"
                   src="/images/howwedo3.png"
                   width={540}
                   height={405}
@@ -210,7 +210,7 @@ export default function Zigzag() {
               </div>
               {/* Content */}
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify"
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">

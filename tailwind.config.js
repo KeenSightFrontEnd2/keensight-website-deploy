@@ -8,6 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        facebook: '#0866ff',
+        tinder: '#ef4a75',
+        airbnb: '#FF5A5F',
+        hubspot: '#f57722',
+
         gray: {
           100: '#FBFBFB',
           200: '#EAEAEA',
@@ -118,9 +123,12 @@ module.exports = {
         fly: 'fly 1.5s ease-in-out forwards',
         flashBurst: 'flashBurst 0.6s ease-in-out infinite',
         moonPulse: 'moonPulse 1.5s ease-in-out infinite',
+        gradientText: 'gradientText 3s ease-in-out infinite',
+
 
 
       },
+      
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0)', },

@@ -36,8 +36,8 @@ export default function ModalVideo({
           data-aos="zoom-y-out"
           data-aos-delay="450"
         >
-          <div className="flex flex-col justify-center">
-            <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
+          <div className="flex flex-col justify-center transition-all rounded-xl">
+            <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} className="rounded-xl" />
             <svg
               className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
               width="768"
