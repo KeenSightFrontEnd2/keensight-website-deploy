@@ -38,7 +38,7 @@ export default function SubContent({ side, index }: { side: string; index: numbe
                     return (
                       <div
                         key={item}
-                        className={`text-gray-600 text-xl  ${index !== 0 && "text-left"}`}
+                        className={`text-gray-600 text-xl text-justify  ${index !== 0 && "text-left"}`}
                         dangerouslySetInnerHTML={{ __html: boldBeforeColon(item) }}
                       />
                     );

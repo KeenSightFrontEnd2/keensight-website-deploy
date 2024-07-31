@@ -34,7 +34,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4 text-center">{header2.title}</h1>
-            <p className="text-xl text-gray-600">{header2.content}</p>
+            <p className="text-xl text-gray-600 text-justify">{header2.content}</p>
           </div>
 
           {/* Section content */}
