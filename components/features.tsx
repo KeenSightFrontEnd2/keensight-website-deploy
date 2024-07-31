@@ -52,11 +52,10 @@ export default function Features() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 1
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg  hover:bg-gradient-to-r from-white to-gray-300"
-                      : "bg-gradient-to-l from-white to-gray-300 border-transparent"
-                  }`}
+                  className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 group ${tab !== 1
+                    ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-blue-100 to-white"
+                    : "bg-gradient-to-r from-blue-100 to-white border-transparent"
+                    }`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault();
@@ -73,7 +72,7 @@ export default function Features() {
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
-                      className="w-3 h-3 fill-current"
+                      className="w-3 h-3 fill-current group-hover:animate-flashBurst"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -82,11 +81,10 @@ export default function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center  justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 2
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg  hover:bg-gradient-to-r from-white to-gray-300"
-                      : "bg-gradient-to-l from-white to-gray-300 border-transparent"
-                  }`}
+                  className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 group ${tab !== 2
+                    ? 'bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r  from-blue-100 to-white'
+                    : 'bg-gradient-to-r from-blue-100 to-white border-transparent'
+                    }`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault();
@@ -98,14 +96,14 @@ export default function Features() {
                       {howWeDo.phases[1].title}
                     </div>
                     <div className="text-gray-600">
-                      <div className="text-gray-600">{howWeDo.phases[1].steps[0]}</div>
-                      <div className="text-gray-600">{howWeDo.phases[1].steps[1]}</div>
-                      <div className="text-gray-600">{howWeDo.phases[1].steps[2]}</div>
+                      <div>{howWeDo.phases[1].steps[0]}</div>
+                      <div>{howWeDo.phases[1].steps[1]}</div>
+                      <div>{howWeDo.phases[1].steps[2]}</div>
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
-                      className="w-3 h-3 fill-current"
+                      className="w-3 h-3 fill-current group-hover:animate-fly"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -117,11 +115,10 @@ export default function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center  justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 3
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-white to-gray-300"
-                      : "bg-gradient-to-l from-white to-gray-300 border-transparent"
-                  }`}
+                  className={`flex items-center  justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 group ${tab !== 3
+                    ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-blue-100 to-white"
+                    : "bg-gradient-to-r from-blue-100 to-white border-transparent"
+                    }`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault();
@@ -140,7 +137,7 @@ export default function Features() {
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
-                      className="w-3 h-3 fill-current"
+                      className="w-3 h-3 fill-current group-hover:animate-moonPulse"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >

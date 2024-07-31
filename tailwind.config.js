@@ -115,11 +115,38 @@ module.exports = {
       },
       animation: {
         float: 'float 3s ease-in-out infinite',
+        fly: 'fly 1.5s ease-in-out forwards',
+        flashBurst: 'flashBurst 0.6s ease-in-out infinite',
+        moonPulse: 'moonPulse 1.5s ease-in-out infinite',
+
+
       },
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0)', },
           '50%': { transform: 'translateY(-5%)', },
+        },
+
+        fly: {
+          '0%': {
+            transform: 'translate(0, 0) scale(1) rotate(0deg)',
+          },
+          '100%': {
+            transform: 'translate(200px, -200px) scale(3) rotate(45deg)',
+          },
+        },
+
+        flashBurst: {
+          '0%': { transform: 'scale(1) rotate(0deg)' },
+          '25%': { transform: 'scale(1.8) rotate(10deg)' },
+          '50%': { transform: 'scale(1.6) rotate(-10deg)' },
+          '75%': { transform: 'scale(1.4) rotate(10deg)' },
+          '100%': { transform: 'scale(1) rotate(0deg)' },
+        },
+        moonPulse: {
+          '0%': { transform: 'scale(1) translateY(0)' },
+          '50%': { transform: 'scale(2) translateY(-5px)' },
+          '100%': { transform: 'scale(1) translateY(0)' },
         },
       },
       zIndex: {
