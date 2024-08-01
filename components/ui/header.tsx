@@ -71,7 +71,7 @@ export default function Header() {
 
               <li>
                 <Link
-                  href="/"
+                  href="https://dsyxgxuqd6g.typeform.com/to/DPwTzauX"
                   className="btn-sm text-gray-200 bg-gray-900 ml-3 transition-all duration-500 ease-in-out hover:px-5 hover:py-3"
                 >
                   <span>Request A Consultation</span>

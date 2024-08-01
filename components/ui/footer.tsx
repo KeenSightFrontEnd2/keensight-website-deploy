@@ -101,7 +101,7 @@ export default function Footer() {
                   href="/intelligent-automation"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Intelligent
+                  Intelligent Automation
                 </a>
               </li>
             </ul>
