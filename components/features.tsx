@@ -24,7 +24,7 @@ export default function Features() {
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16 h-dvh"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
@@ -38,7 +38,7 @@ export default function Features() {
           </div>
 
           {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
+          <div className="md:grid md:grid-cols-12 md:gap-6 h-screen mt-20">
             {/* Content */}
             <div
               className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
@@ -164,7 +164,7 @@ export default function Features() {
                   <Transition
                     show={tab === 1}
                     appear={true}
-                    className="w-full"
+                    className="w-0 h-0 lg:w-full lg:h-auto"
                     enter="transition ease-in-out duration-700 transform order-first"
                     enterFrom="opacity-0 translate-y-16"
                     enterTo="opacity-100 translate-y-0"
@@ -188,7 +188,7 @@ export default function Features() {
                   <Transition
                     show={tab === 2}
                     appear={true}
-                    className="w-full"
+                    className="w-0 h-0 lg:w-full lg:h-auto"
                     enter="transition ease-in-out duration-700 transform order-first"
                     enterFrom="opacity-0 translate-y-16"
                     enterTo="opacity-100 translate-y-0"
@@ -212,7 +212,7 @@ export default function Features() {
                   <Transition
                     show={tab === 3}
                     appear={true}
-                    className="w-full"
+                    className="w-0 h-0 lg:w-full lg:h-auto"
                     enter="transition ease-in-out duration-700 transform order-first"
                     enterFrom="opacity-0 translate-y-16"
                     enterTo="opacity-100 translate-y-0"
@@ -222,7 +222,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="hidden lg:inline-flex relative flex-col">
+                    <div className="lg:inline-flex relative flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
                         src="/images/logo-circles.png"

@@ -17,7 +17,7 @@ export default function ProductPage({ params }: { params: { product: string } })
 
   return (
     <>
-      <section className="relative ">
+      <section className="relative h-screen mt-10">
         {/* Illustration behind hero content */}
         <div
           className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
@@ -38,16 +38,16 @@ export default function ProductPage({ params }: { params: { product: string } })
           </svg>
         </div>
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-10">
           {/* Hero content */}
-          <div className="pt-32 pb-12 md:pt-30 md:pb-20 lg:flex lg:gap-16">
+          <div className="pt-32 pb-12 md:pt-30 md:pb-20 lg:flex lg:gap-16 ">
             {/* Section header */}
-            <div className="text-center pb-12 md:pb-16 lg:text-left">
+            <div className="text-center lg:text-left mb-32">
               <h1
                 className="text-4xl md:text-[4.5rem] font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                <span className="bg-clip-text text-6xl text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
                   {product.name}
                 </span>
               </h1>
@@ -79,8 +79,8 @@ export default function ProductPage({ params }: { params: { product: string } })
             {/* Hero image */}
             <ModalVideo
               thumb={VideoThumb}
-              thumbWidth={850}
-              thumbHeight={500}
+              thumbWidth={1920}
+              thumbHeight={1080}
               thumbAlt="Modal video thumbnail"
               video="/videos/video.mp4"
               videoWidth={1920}

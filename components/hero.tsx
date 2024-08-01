@@ -5,7 +5,7 @@ import { heroHeader } from "./utils/siteData";
 
 export default function Hero() {
   return (
-    <section className="relative ">
+    <section className="relative">
       {/* Illustration behind hero content */}
       <div
         className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
@@ -30,20 +30,22 @@ export default function Hero() {
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-30 md:pb-20">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="text-center pb-12 md:pb-16 mt-10 h-screen">
             <SwiperList swiperArr={heroHeader} />
           </div>
 
           {/* Hero image */}
+          <div className="h-dvh mt-0">
           <ModalVideo
             thumb={VideoThumb}
-            thumbWidth={768}
+            thumbWidth={1080}
             thumbHeight={432}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080}
           />
+          </div>
         </div>
       </div>
     </section>
