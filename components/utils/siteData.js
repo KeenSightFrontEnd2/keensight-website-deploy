@@ -72,16 +72,13 @@ export const ourServices = {
       subTitle: `Quantitative Algorithms`,
       description: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,
       image: "/images/custom-algo.svg",
-      link: "#",
-      // link: "/quantitative-algorithms",
+      link: "/quantitative-algorithms",
     },
     {
       subTitle: `GPT Integration Services`,
       description: `Transform Your Operations, Boost Efficiency, and Drive Growth with Our Cutting-Edge GPT Solutions`,
       image: "/images/rigor.svg",
-      link: "#",
-
-      // link: "/gpt-integration",
+      link: "/gpt-integration",
     },
     {
       subTitle: `E-Commerce Chatbots`,
@@ -93,17 +90,13 @@ export const ourServices = {
       subTitle: `Custom GPT Models`,
       description: `Revolutionize Your Operations, Enhance Customer Engagement, and Drive Innovation with Our Tailored GPT Solutions on the OpenAI GPT Store`,
       image: "/images/realtime.svg",
-      link: "#",
-
-      // link: "/custom-gpt-solutions",
+      link: "/custom-gpt-solutions",
     },
     {
       subTitle: `Intelligent Automation Systems`,
       description: `Boost Efficiency, Save Time, and Simplify Workflows with Our Powerful Automation Solutions Powered by Make.com and Zapier`,
       image: "/images/ongoing.svg",
-      link: "#",
-
-      // link: "/intelligent-automation",
+      link: "/intelligent-automation",
     },
   ],
 };

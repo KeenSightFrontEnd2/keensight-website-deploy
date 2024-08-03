@@ -32,7 +32,8 @@ export default function FeaturesBlocks({ services = ourServices }) {
               return (
                 <Link
                   key={item.image}
-                  href={item.link}
+                  // href={item.link}
+                  href={"/"}
                   className={`relative min-h-full border-t border-gray-200 flex flex-col items-center text-center gap-4 p-6 bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out ${colSpanClasses}`}
                 >
                   <div className="bg-blue-600 p-2 rounded-full">
