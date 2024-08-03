@@ -3,7 +3,9 @@ export const heroHeader = [
     title: `Innovative AI, `,
     span: `Complete Software.`,
     content: `From Concept to Code, We are Here to Help.`,
-    link: "/contact",
+    // link: "/contact",
+    link: "#",
+
     button: `Contact Us`,
     image: "/",
   },
@@ -11,7 +13,9 @@ export const heroHeader = [
     title: `Revolutionize Your Trading with Cutting-Edge`,
     span: `Quantitative Algorithms`,
     content: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,
-    link: "/quantitative-algorithms",
+    // link: "/quantitative-algorithms",
+    link: "#",
+
     button: `Get Started`,
     image: "/custom-algo.svg",
   },
@@ -19,7 +23,9 @@ export const heroHeader = [
     title: `Unleash the Power of`,
     span: `GPT Integration`,
     content: `Transform Your Operations, Boost Efficiency, and Drive Growth with Our Cutting-Edge GPT Solutions`,
-    link: "/gpt-integration",
+    // link: "/gpt-integration",
+    link: "#",
+
     button: `Request a Free Consultation`,
     image: "/rigor.svg",
   },
@@ -27,7 +33,9 @@ export const heroHeader = [
     title: `Transform Your E-commerce with Intelligent`,
     span: `Chatbots`,
     content: `Enhance Customer Engagement, Improve Response Times, and Drive Conversions with Our Advanced Chatbot Solutions`,
-    link: "/chatbots",
+    // link: "/chatbots",
+    link: "#",
+
     button: `Get Your Custom Chatbot`,
     image: "/seamless.svg",
   },
@@ -35,7 +43,9 @@ export const heroHeader = [
     title: `Unleash the Power of `,
     span: `Custom GPT Solutions`,
     content: `Revolutionize Your Operations, Enhance Customer Engagement, and Drive Innovation with Our Tailored GPT Solutions on the OpenAI GPT Store`,
-    link: "/custom-gpt-solutions",
+    // link: "/custom-gpt-solutions",
+    link: "#",
+
     button: `Create Your Custom GPT Now`,
     image: "/realtime.svg",
   },
@@ -43,7 +53,9 @@ export const heroHeader = [
     title: `Streamline Your Business with`,
     span: `Intelligent Automation Systems`,
     content: `Boost Efficiency, Save Time, and Simplify Workflows with Our Powerful Automation Solutions Powered by Make.com and Zapier`,
-    link: "/intelligent-automation",
+    // link: "/intelligent-automation",
+    link: "#",
+
     button: `Automate Your Business Now`,
     image: "/ongoing.svg",
   },
@@ -72,13 +84,16 @@ export const ourServices = {
       subTitle: `Quantitative Algorithms`,
       description: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,
       image: "/images/custom-algo.svg",
-      link: "/quantitative-algorithms",
+      link: "#",
+      // link: "/quantitative-algorithms",
     },
     {
       subTitle: `GPT Integration Services`,
       description: `Transform Your Operations, Boost Efficiency, and Drive Growth with Our Cutting-Edge GPT Solutions`,
       image: "/images/rigor.svg",
-      link: "/gpt-integration",
+      link: "#",
+
+      // link: "/gpt-integration",
     },
     {
       subTitle: `E-Commerce Chatbots`,
@@ -90,13 +105,17 @@ export const ourServices = {
       subTitle: `Custom GPT Models`,
       description: `Revolutionize Your Operations, Enhance Customer Engagement, and Drive Innovation with Our Tailored GPT Solutions on the OpenAI GPT Store`,
       image: "/images/realtime.svg",
-      link: "/custom-gpt-solutions",
+      link: "#",
+
+      // link: "/custom-gpt-solutions",
     },
     {
       subTitle: `Intelligent Automation Systems`,
       description: `Boost Efficiency, Save Time, and Simplify Workflows with Our Powerful Automation Solutions Powered by Make.com and Zapier`,
       image: "/images/ongoing.svg",
-      link: "/intelligent-automation",
+      link: "#",
+
+      // link: "/intelligent-automation",
     },
   ],
 };
