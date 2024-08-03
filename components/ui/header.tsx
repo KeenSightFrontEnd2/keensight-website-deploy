@@ -54,8 +54,7 @@ export default function Header() {
 
               <li>
                 <Link
-                  // href={navLinks[0].link}
-                  href={"#"}
+                  href={navLinks[0].link}
                   className="font-medium text-gray-600 hover:text-gray-900 hover:mx-2 px-5 py-3 flex items-center transition-all duration-300 ease-in-out"
                 >
                   {navLinks[0].title}
@@ -63,9 +62,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  // href={navLinks[1].link}
-                  href={"#"}
-
+                  href={navLinks[1].link}
                   className="font-medium text-gray-600  hover:text-gray-900 hover:mx-2 px-5 py-3 flex items-center transition-all duration-300 ease-in-out"
                 >
                   {navLinks[1].title}
