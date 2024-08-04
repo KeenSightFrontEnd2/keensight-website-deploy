@@ -39,7 +39,7 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+            <ul className="flex grow justify-end flex-nowrap items-center">
               <Dropdown title={navLinks[2].title}>
                 {navLinks[2].products?.map((subLink) => (
                   <Link
@@ -72,7 +72,7 @@ export default function Header() {
               <li>
                 <Link
                   href="https://dsyxgxuqd6g.typeform.com/to/DPwTzauX"
-                  className="btn-sm text-gray-200 bg-gray-900 ml-3 transition-all duration-500 ease-in-out hover:px-5 hover:py-3"
+                  className="btn-sm text-gray-200 bg-gray-900 ml-3 transition-all duration-500 ease-in-out hover:px-5 hover:py-3 md:text-xs md:gap-0 md:py-2 md:px-1 md:m-0 md:hover:px-0 md:hover:py-0"
                 >
                   <span>Request A Consultation</span>
                   <svg

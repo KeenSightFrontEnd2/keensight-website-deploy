@@ -73,6 +73,7 @@ export const ourServices = {
       description: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,
       image: "/images/custom-algo.svg",
       link: "/quantitative-algorithms",
+      
     },
     {
       subTitle: `GPT Integration Services`,
