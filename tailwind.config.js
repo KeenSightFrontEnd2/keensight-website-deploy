@@ -7,6 +7,27 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'iphone-se': '375px', // iPhone SE screen size
+        'iphone-xr': '414px', // iPhone XR screen size
+        'iphone-12-pro': '390px', // iPhone 12 Pro screen size
+        'pixel-7': '412px', // Pixel 7 screen size
+        'galaxy-s8-plus': '360px',
+        'galaxy-s20-ultra': '360px',
+        'ipad-mini': '768px',
+        'ipad-pro': '1024px',
+        'surface-pro': '912px',
+        'surface-duo': '540px',
+        'galaxy-z-fold': '344px',
+        'zenbook-fold': '850px',
+        'galaxy-a51': '1080px',
+        'nest-hub': '1024px',
+        'nest-hub-max': '1280px',
+
+
+
+        
+      },
       colors: {
         facebook: '#0866ff',
         tinder: '#ef4a75',

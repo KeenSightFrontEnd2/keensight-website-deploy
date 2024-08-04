@@ -42,12 +42,12 @@ export default function ProductPage({ params }: { params: { product: string } })
           {/* Hero content */}
           <div className="pt-32 pb-12 md:pt-30 md:pb-20 lg:flex lg:gap-16 ">
             {/* Section header */}
-            <div className="text-center lg:text-left mb-32">
+            <div className="text-center lg:text-left">
               <h1
                 className="text-4xl md:text-[4.5rem] font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
-                <span className="bg-clip-text text-6xl text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                <span className="bg-clip-text text-5xl lg:text-6xl md:text-6xl text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
                   {product.name}
                 </span>
               </h1>
@@ -90,7 +90,7 @@ export default function ProductPage({ params }: { params: { product: string } })
         </div>
       </section>
 
-      <FeaturesBlocks services={product.services} />
+      <FeaturesBlocks />
 
       <Infographic arr={product.imageArr} />
 

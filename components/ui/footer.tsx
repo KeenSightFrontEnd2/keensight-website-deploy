@@ -3,11 +3,11 @@ import Logo from "./logo";
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="flex flex-col justify-center max-w-6xl mx-auto px-4 sm:px-6 items-center text-center lg:text-left">
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-3 ">
+          <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2 transition-all duration-500 hover:drop-shadow-2xl hover:-translate-x-1 hover:-translate-y-1">
               <Logo />
             </div>
@@ -259,7 +259,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Keensight Analytics. All rights reserved.
           </div>
         </div>
-      </div>
+      </div> 
     </footer>
   );
 }

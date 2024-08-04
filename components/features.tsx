@@ -38,7 +38,7 @@ export default function Features() {
           </div>
 
           {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6 h-screen mt-20">
+          <div className="md:grid md:grid-cols-6 lg:grid-cols-12 md:gap-6 h-screen mt-20">
             {/* Content */}
             <div
               className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
@@ -53,8 +53,8 @@ export default function Features() {
               <div className="mb-8 md:mb-0">
                 <a
                   className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 group ${tab !== 1
-                    ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-blue-100 to-white"
-                    : "bg-gradient-to-r from-blue-100 to-white border-transparent"
+                    ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-blue-200 to-white"
+                    : "bg-gradient-to-r from-blue-200 to-white border-transparent"
                     }`}
                   href="#0"
                   onClick={(e) => {
@@ -82,8 +82,8 @@ export default function Features() {
                 </a>
                 <a
                   className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 group ${tab !== 2
-                    ? 'bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r  from-blue-100 to-white'
-                    : 'bg-gradient-to-r from-blue-100 to-white border-transparent'
+                    ? 'bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r  from-blue-200 to-white'
+                    : 'bg-gradient-to-r from-blue-200 to-white border-transparent'
                     }`}
                   href="#0"
                   onClick={(e) => {
@@ -116,8 +116,8 @@ export default function Features() {
                 </a>
                 <a
                   className={`flex items-center  justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 group ${tab !== 3
-                    ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-blue-100 to-white"
-                    : "bg-gradient-to-r from-blue-100 to-white border-transparent"
+                    ? "bg-white shadow-md border-gray-200 hover:shadow-lg hover:bg-gradient-to-r from-blue-200 to-white"
+                    : "bg-gradient-to-r from-blue-200 to-white border-transparent"
                     }`}
                   href="#0"
                   onClick={(e) => {
