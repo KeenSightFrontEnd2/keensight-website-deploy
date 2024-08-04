@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function FeaturesBlocks() {
   return (
     <section className="relative z-10">
-<div className="absolute inset-0 inset-x-0 bg-black -z-10 w-screen top-[1040px] lg:top-[540px] xl:top-[540px] md:top-[680px] sm:top-[540px] iphone-se:top-[1110px] iphone-xr:top-[1025px] iphone-12-pro:top-[1080px] pixel-7:top-[1030px] galaxy-s8-plus:top-[1130px] ipad-pro:top-[570px] surface-pro:top-[650px] surface-duo:top-[980px] galaxy-z-fold:top-[810px]zenbook-fold:top-[560px]"></div>
+<div className="absolute inset-0 inset-x-0 bg-black -z-10 w-screen top-[1040px] lg:top-[540px] xl:top-[540px] md:top-[680px] sm:top-[540px] iphone-se:top-[1270px] iphone-xr:top-[1190px] iphone-12-pro:top-[1250px] pixel-7:top-[1200px] galaxy-s8-plus:top-[1420px] ipad-mini:top-[840px] ipad-pro:top-[570px] surface-pro:top-[810px] surface-duo:top-[1140px] galaxy-z-fold:top-[1110px] zenbook-fold:top-[810px]"></div>
 
       {/* Section background */}
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
@@ -13,7 +13,7 @@ export default function FeaturesBlocks() {
         <div className="py-12 sm:mt-10 md:mt-10 lg:mt-0">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-11">
-            <h2 className="h2 mb-4 mt-20 lg:mt-0 xl:mt-0">Our Services</h2>
+            <h2 className="h2 mb-4 iphone-se:mt-60 lg:mt-0 xl:mt-0">Our Services</h2>
             <p className="text-xl text-gray-600">
               Our services are tailored for the digital age. From AI analytics to custom software, we're your partners in progress, dedicated to driving efficiency and fostering growth for your business.
             </p>
