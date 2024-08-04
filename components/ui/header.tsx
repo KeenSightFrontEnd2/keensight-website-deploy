@@ -72,7 +72,7 @@ export default function Header() {
               <li>
                 <Link
                   href="https://dsyxgxuqd6g.typeform.com/to/DPwTzauX"
-                  className="btn-sm text-gray-200 bg-gray-900 ml-3 transition-all duration-500 ease-in-out hover:px-5 hover:py-3 md:text-xs md:gap-0 md:py-2 md:px-1 md:m-0 md:hover:px-0 md:hover:py-0"
+                  className="btn-sm text-gray-200 bg-gray-900 ml-3 transition-all duration-500 ease-in-out hover:px-5 hover:py-3 lg:px-5 lg:py-2 lg:hover:px-6 lg:hover:py-3  xl:hover:px-6 xl:hover:py-3 md:text-xs md:gap-0 md:py-2 md:px-1 md:m-0 md:hover:px-1 md:hover:py-2"
                 >
                   <span>Request A Consultation</span>
                   <svg
